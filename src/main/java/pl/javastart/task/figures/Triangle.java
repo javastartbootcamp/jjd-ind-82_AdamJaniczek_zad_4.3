@@ -22,4 +22,8 @@ public class Triangle {
     public double getHypotenuse() {
         return hypotenuse;
     }
+
+    public double surface() {
+        return (this.adjoining * this.height) / 2;
+    }
 }

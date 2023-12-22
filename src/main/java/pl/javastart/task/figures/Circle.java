@@ -10,4 +10,8 @@ public class Circle {
     public double getRadius() {
         return radius;
     }
+
+    public double surface() {
+        return Math.PI * Math.pow(this.radius, 2);
+    }
 }

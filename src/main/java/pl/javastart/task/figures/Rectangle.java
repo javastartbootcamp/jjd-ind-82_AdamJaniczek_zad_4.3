@@ -16,4 +16,8 @@ public class Rectangle {
     public double getB() {
         return b;
     }
+
+    public double surface() {
+        return this.a * this.b;
+    }
 }

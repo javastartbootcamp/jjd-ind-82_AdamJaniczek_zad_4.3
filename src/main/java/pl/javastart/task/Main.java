@@ -12,10 +12,9 @@ public class Main {
         Circle circle = new Circle(3);
         Rectangle rectangle = new Rectangle(5, 10);
         Triangle triangle = new Triangle(3, 10, 4);
-        ShapeCalculator shapeCalculator = new ShapeCalculator();
-        System.out.println(shapeCalculator.calculateSquareArea(square));
-        System.out.println(shapeCalculator.calculateCircleArea(circle));
-        System.out.println(shapeCalculator.calculateRectPerimeter(rectangle));
-        System.out.println(shapeCalculator.calculateTrianglePerimeter(triangle));
+        System.out.println(square.surface());
+        System.out.println(circle.surface());
+        System.out.println(rectangle.surface());
+        System.out.println(triangle.surface());
     }
 }

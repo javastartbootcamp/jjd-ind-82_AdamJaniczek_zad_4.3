@@ -14,4 +14,8 @@ public class Square {
     public double getLength() {
         return a;
     }
+
+    public double surface() {
+        return this.a * this.a;
+    }
 }
